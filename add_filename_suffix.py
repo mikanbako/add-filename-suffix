@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 # The MIT License (MIT)
 # 
@@ -26,7 +26,7 @@ import shutil
 import sys
 
 if len(sys.argv) < 3:
-    print u'add_file_suffix.py suffix file...'
+    print('add_file_suffix.py suffix file...')
     sys.exit(1)
 
 added_suffix = sys.argv[1]
